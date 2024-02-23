@@ -1,0 +1,29 @@
+[project]
+name = "competitive-programming"
+version = "0.1.0"
+description = "Add your description here"
+dependencies = [
+    "pip>=24.0",
+    "online-judge-tools>=11.5.1",
+    "online-judge-template-generator>=4.8.1",
+    "setuptools>=69.1.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+hello = "competitive_programming:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/competitive_programming"]
