@@ -6,6 +6,7 @@ random*.out
 test
 
 generate.py
+naive.py
 
 # python generated files
 __pycache__/
