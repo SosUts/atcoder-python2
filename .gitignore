@@ -2,9 +2,6 @@
 random*.in
 random*.out
 
-# test
-test
-
 generate.py
 naive.py
 
