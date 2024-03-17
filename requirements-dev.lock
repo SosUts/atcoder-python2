@@ -62,6 +62,8 @@ requests==2.31.0
 rpds-py==0.18.0
     # via jsonschema
     # via referencing
+ruff==0.3.3
+    # via competitive-programming
 soupsieve==2.5
     # via beautifulsoup4
 toml==0.10.2
