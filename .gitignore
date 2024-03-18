@@ -1,4 +1,5 @@
 .vscode
+*.cpp
 
 # random samples
 random*.in
